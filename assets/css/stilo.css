@@ -1,0 +1,58 @@
+:root{
+    --cor-bg-header:#f0f0f0 ; /* #252525 */
+    --cor-bg-main: #ffffff; /*#474747*/
+    --cor-borda: #ffffff;
+    --cor-bg-calc:  #151515;
+    --cor-bg-button:  #afafaf;
+    --cor-bg-visor: #b7b7fb;
+    --cor-borda-visor: #000000;
+}
+
+
+footer,header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    height: 100px;
+    background-color:var(--cor-bg-header) ;
+}
+
+main{
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-bg-main);
+}
+
+ul{
+    display: block;
+    padding: 10px 5px;
+}
+
+li{
+    padding-right: 5px;
+}
+
+table, th, td {
+    border:2px solid black;
+    width: 70vh;
+}
+
+th{
+    font-weight: bold;
+    background-color: var(--cor-bg-header)
+}
+
+td{ 
+    text-align: center;
+}
+
+.td-cinza {
+    background-color:var(--cor-bg-button)
+}
+
+p{
+    display: block;
+}
